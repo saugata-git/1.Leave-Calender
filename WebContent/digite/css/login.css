@@ -1,0 +1,52 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 2px solid #f1f1f1;}
+
+#login input[type=text],#login input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#login button {
+  background-color: #0480ca;
+  color: white;
+  padding: 14px 20px;
+  margin-top:20px;
+  margin-left: 110px ;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+}
+
+#login #signup_button2{
+  
+  background-color: #0480ca;
+  color: white;
+  padding: 14px 20px;
+  margin-top:20px;
+  margin-left: 160px ;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+}
+
+#login button:hover {
+  opacity: 0.6;
+}
+
+#login .container {
+  padding: 26px;
+  background-color: #dddddd;
+}
+
+
+#login .header{
+  background-color: #0480ca;
+  color: white;
+  padding: 14px 20px;
+}
+
+

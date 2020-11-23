@@ -1,0 +1,28 @@
+.Mui-close-dialog-body {
+	
+}
+
+.Mui-close-dialog-body .Mui-close-heading {
+	font-size: 14px !important;
+    font-weight: bold !important;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.21;
+    margin-bottom: 8px;
+}
+
+.Mui-close-dialog-body .Mui-close-info div {
+	font-size: 14px !important;
+	line-height: 1.43;
+	color: #000000;
+}
+
+.Mui-close-dialog-body .Mui-close-note {
+	margin-top: 20px;
+	color: #000000;
+	font-size: 14px !important;
+}
+
+.Mui-close-dialog-body .MuiTextField-root {
+	margin-top: 28px;
+	width: 100%;
+}

@@ -1,0 +1,121 @@
+*{margin: 0px;padding: 0px;}
+body {font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
+.form {border: 2px solid #f1f1f1;}
+
+#addevent input[type=text],#addevent input[type=password],#addevent input[type=date], #addevent input[type=time]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+ #addevent button {
+  background-color:  #0480ca;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+#addevent button:hover {
+  opacity: 0.6;
+}
+
+#addevent .container {
+  padding: 26px;
+  height: calc(100% - 170px);
+  background-color: #e8e8e8;
+  overflow-y: auto;
+}
+#addevent .header{
+  background-color:  #0480ca;
+  color: white;
+  height:30px;
+  padding: 14px 20px;
+}
+
+#addevent .footer{
+  background-color:  #acacac  ;
+  height:60px;
+  width:100%;
+  text-align:center;
+}
+
+ #addevent .footer button {
+  background-color:  #0480ca;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  
+}
+
+#addevent .footer button:first-child{
+	margin-right:10px;
+}
+
+#addevent .footer button:last-child{
+	margin-left:10px;
+}
+
+#addevent .form{
+	 height:100%;
+	 width:100%;
+}
+
+#addevent{
+	  width:60%;
+      height: 95%;
+      min-width:800px;
+ 
+      transform:translate(-50%,-50%);
+      position: absolute;
+      top:50%;
+      left: 50%;
+       border: 1px solid #b1b1b1;
+      z-index: 9999;
+}
+
+
+#root{
+	  position: absolute;
+	  width:100%;
+      height:100%;
+      top:0px;
+      left: 0px;
+      padding:10px;
+      overflow:auto;
+}
+
+.addeventmask{
+	  position: absolute;
+	  width:100%;
+      height:100%;
+      top:0px;
+      left: 0px;
+      z-index: 500;
+}
+#addevent #closeicon {
+  background-color:  #e8e8e8;
+  border: none;
+  color: black;
+  width:50px;
+  height:40px;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: 10px; 
+  top: 0px;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
